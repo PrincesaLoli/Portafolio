@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300&family=Montserrat:ital,wght@0,300;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300&family=Montserrat:ital,wght@0,300;0,400;1,300&family=Secular+One&display=swap');
+body, html {
+	height: 100%;
+	margin: 0;
+}
+
+#cont-login #cont-form{
+    padding-top: 10%; /* este se acomoda a la pantalla es mas preciso */
+}
+
+#logo {
+	width: 10%;
+	height: 10%;
+}
+
+.bg-image {
+	height: 100%; 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+@media (max-width: 768px) {
+	.bg-image {
+		height: fit-content;
+	}	
+}
+
+.img1 { background-image: url(../img/fondouno.png); }
+.img2 { background-image: url(../img/fondodos.png); }
+.img3 { background-image: url(../img/fondotres.png); }
+.img4 { background-color: url(../img/fondodos.png)}
+
+.bg-portafolio{
+    background: palevioletred;
+}
+
+.bg-portafolio ul li a{ 
+    color: white;
+}
+
+.bg-portafolio ul li a:hover{
+    color: rgb(13, 13, 13);
+    background: rgb(249, 153, 209);
+}
+
+#box {
+	display: inline-block;
+	text-align: center;
+	width:100%;
+	height:100%;
+	padding-top:8%;
+	padding-left:30%;
+	padding-right: 5%;
+	background-clip: content-box;
+}
+
+h1 {
+	font-family: 'Secular One', sans-serif;
+	text-shadow: 1px 2px rgb(230, 108, 183);
+	padding-top: 0px;
+	margin-top: 100px;
+}
+
+h2{
+	/* margin-top: 5rem !important; */
+	color: palevioletred !important;
+	font-family: 'Secular One', sans-serif; 
+	border:#080000;
+} 
+h3{
+	background-color: rgb(240, 188, 211);
+	border-radius: 0.5rem;
+	border: black 1px solid; 
+	color: palevioletred !important;
+	font-family: 'Secular One', sans-serif;
+	width: fit-content;
+	text-align: start;
+	
+
+}
+
+p{
+	text-align: start !important;
+	font-family: 'Montserrat', sans-serif;
+}
+.progress{
+	background-color: rgb(241, 164, 199) !important;
+	height: 40px;
+	margin-top: 3rem;
+}
+h4{
+	font-family: 'MSecular One', sans-serif;
+	text-align: start;
+	height: 0%;
+	
+}
+
+#johana h2{
+	color: #080000 !important;
+	font-family: 'Secular One', sans-serif;
+	text-align: right;
+	height: 0%;
+	
+
+}
+
+#columnas{
+   column-count:2;
+   column-gap:30px;
+   column-rule:30px;
+   
+}
+
+.cajaEstudios {
+	border: 1px solid black;
+	background-color: pink;
+	width: 50%;
+	text-align: center;
+	/* margin-top: 3%; 
+	margin-right:26%;
+	margin-left: 20%; 
+	margin-inline-start: 9%;
+	margin-block-start: 5%;
+	margin-block-end: 7%; */
+	border-radius: 0.5rem;
+}
+#programacion{
+	height: 90%;
+	padding-top: 30%;
+}
+#johana h4{
+	text-align: left;
+	text-align: right;
+
+}
+#enviar{
+	border: #f080af;
+
+}
+
+footer{
+    text-align: center !important;
+    background: #080000;
+    color: aliceblue;
+    padding: 30PX;
+}
